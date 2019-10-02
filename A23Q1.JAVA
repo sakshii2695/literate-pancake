@@ -1,12 +1,11 @@
-//import java.io.BufferedWriter;
+import java.io.BufferedWriter;
 //import java.io.FileWriter;
 //import java.io.IOException;
 import java.io.BufferedReader;
 //import java.io.InputStream;
 import java.io.InputStreamReader;
-import java.io.FileInputStream;
+import java.io.FileInputStream;+
 import java.io.InputStream;
-/*
 class BufferedWriterDemo{
 	private static final String FILENAME= "filename.txt ";
 	public static  void main(String[] args) throws Exception
@@ -30,7 +29,7 @@ class BufferedWriterDemo{
 					else if((ch>='a'&&ch<='z') || (ch>='A'&&ch<='Z'))
 					{
 						letters++;
-						if(ch == 'a' || ch == 'e' || ch == 'i'|| ch == 'o' || ch == 'u')
+						if(ch == 'a' || ch == 'e' || ch == 'i'|| ch == 'o' ||ch == 'A' || ch == 'E' || ch == 'I'|| ch == 'O' || ch == 'O')
 						vowels++;
 					}
 				}
@@ -66,7 +65,7 @@ class BufferedWriterDemo{
 	}
 }
 
-*/
+
 class BufferedReaderDemo
 {
 	public static  void main(String[] args) throws Exception{
