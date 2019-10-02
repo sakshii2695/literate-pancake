@@ -3,9 +3,7 @@ import java.io.BufferedWriter;
 //import java.io.IOException;
 import java.io.BufferedReader;
 //import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.io.FileInputStream;+
-import java.io.InputStream;
+
 class BufferedWriterDemo{
 	private static final String FILENAME= "filename.txt ";
 	public static  void main(String[] args) throws Exception
